@@ -1,5 +1,7 @@
 FROM justinrstout/oracle-jdk
 
+MAINTAINER Justin R. Stout <justinrstout@justinrstout.com>
+
 WORKDIR /tmp/gradle
 
 COPY gradle ./gradle
