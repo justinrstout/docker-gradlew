@@ -1,6 +1,6 @@
 FROM justinrstout/oracle-jdk
 
-WOKRDIR /tmp/gradle
+WORKDIR /tmp/gradle
 
 COPY gradle ./gradle
 COPY gradlew ./
